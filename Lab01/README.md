@@ -4,8 +4,6 @@
   NOME: Guilherme Rodrigues Santos - TIA: 32012209
 </h1>
 
-<hr>
-
 <ul>
   <li><p>Para a compilação do Programa foi necessário instalar o compilador <b>MINGW</b> para possibilitar a construção do código em C, viabilizando coda-lo em um ambiente propicio, como o <b>Visual Studio Code</b> (que foi utilizado)</p></li>
   
