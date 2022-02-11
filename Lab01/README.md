@@ -5,18 +5,21 @@
 </h1>
 
 <ul>
-  <li><h2>COMPILAÇÃO</h2><p>Para a compilação do Programa foi necessário instalar o compilador <b>MINGW</b> para possibilitar a construção do código em C, viabilizando coda-lo em um ambiente propicio, como o <b>Visual Studio Code</b> (que foi utilizado)</p></li>
+  <li>
+    <h3>COMPILAÇÃO</h3>
+    <p>Para a compilação do Programa foi necessário instalar o compilador <b>MINGW</b> para possibilitar a construção do código em C, viabilizando coda-lo em um ambiente propicio,       como o <b>Visual Studio Code</b> (que foi utilizado)</p>
+  </li>
   
   <hr>
   
-  <li><h2>EXECUÇÃO</h2><p>Para a execução do programa foram instaladas as extensões necessárias para possibilitar a execução do programa, tai quais são mostradas nas imagens:       <br>
+  <li><h3>EXECUÇÃO</h3><p>Para a execução do programa foram instaladas as extensões necessárias para possibilitar a execução do programa, tai quais são mostradas nas imagens:       <br>
     <img src="https://cdn.discordapp.com/attachments/820795354823786508/941771361108516974/Captura_de_tela_2022-02-11_155943.png"><br>
     Após a instalação das extensões e compilador foi possivel executar o programa pressionando F6 OU clicando no botão de Play
   </p></li>
   
   <hr>
   
-  <li><h2>COMPROVAÇÃO</h2><p>Imagem do código + programa sendo executado: <br>
+  <li><h3>COMPROVAÇÃO</h3><p>Imagem do código + programa sendo executado: <br>
     <img src="https://cdn.discordapp.com/attachments/820795354823786508/941774154372378666/unknown.png">  
   </p></li>
   
