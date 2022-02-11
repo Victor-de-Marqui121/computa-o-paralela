@@ -5,4 +5,4 @@ Como compilar o programa na plataforma disponibilizada;
 Como executar o programa;
 
 Como comprovar que os resultados propostos foram alcançados.
-<img src="https://m.media-amazon.com/images/I/912veQOwCQL._AC_SX355_.jpg">
+<img src="https://drive.google.com/file/d/1YDbtjxnzIYwwhTIODqUosGVci--cSCmU/view?usp=sharing">
