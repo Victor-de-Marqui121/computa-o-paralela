@@ -20,6 +20,6 @@ int main() {
     if(strlen(str)>=pos) for(int i=strlen(str)+2;i>=pos;i--) str[i+1]=str[i];
     str[pos]=letter;
 
-	printf("\nNova String: %s", str);
+    printf("\nNova String: %s", str);
     return 0;
 }
