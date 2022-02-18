@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    /*2. Escreva um programa que leia 3 notas de um aluno e a média das notas dos exercícios realizados por ele.
-    Calcular a média de aproveitamento, usando a fórmula : MA = (N1 + N2 * 2 + N3 * 3 + ME) / 7.
-    A partir da média, informar o conceito de acordo com a tabela :*/
+    /*2. Escreva um programa que leia 3 notas de um aluno e a mÃ©dia das notas dos exercÃ­cios realizados por ele.
+    Calcular a mÃ©dia de aproveitamento, usando a fÃ³rmula : MA = (N1 + N2 * 2 + N3 * 3 + ME) / 7.
+    A partir da mÃ©dia, informar o conceito de acordo com a tabela :*/
 
     char result[] = { 'A', 'B', 'C', 'D', 'E' };
     float notas[4] = { 0 };
@@ -26,4 +26,5 @@ int main() {
     else if (MA >= 6 && MA < 7.5)  printf("C");
     else if (MA >= 4 && MA < 6)  printf("D");
     else  printf("E");
+    return 0;
 }
