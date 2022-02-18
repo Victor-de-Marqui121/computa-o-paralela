@@ -17,7 +17,7 @@ void main()
   
     while (num % 2 == 0) {
         printf("Informe um numero maximo IMPAR: ");
-        scanf_s("%d", &num);
+        scanf("%d", &num);
     }
     
     for (int i = 1; i <= num - i+1; i++) {
