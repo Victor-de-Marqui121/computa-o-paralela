@@ -1,0 +1,10 @@
+Julie;23;4.00
+Teste;32;2.00
+Vitu;19;1.85
+Ziguin;91;1.80
+ManoYugi;19;1.78
+guilherme;19;1.75
+Ana;21;1.67
+BennyTanaka;53;1.45
+Hello World;200;1.00
+Wins Forms;10;0.75
