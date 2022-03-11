@@ -53,7 +53,6 @@ int main(void){
     printf("Antes da Ordenação: \n");
     (printa(Povo));
 
-
     qsort (Povo, 10, sizeof(PESSOA), compara);
 
     printf("\n\nDepois da Ordenação: \n");
