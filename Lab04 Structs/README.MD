@@ -29,4 +29,6 @@
   
   <li>
     <h3>COMPROVAÇÃO</h3>
-![unknown](https://cdn.discordapp.com/attachments/820795354823786508/951861838465867806/unknown.png)
+    <img src="https://cdn.discordapp.com/attachments/820795354823786508/951861838465867806/unknown.png">
+  </li>
+</ul>
