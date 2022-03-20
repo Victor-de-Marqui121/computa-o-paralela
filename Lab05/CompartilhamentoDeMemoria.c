@@ -8,12 +8,16 @@ int main(void)
 {
     pid_t childpid;
     int shm_id; 
-    if ((shm_id = shmget(IPC_PRIVATE, 1024, IPC_CREAT | 0660)) < 0){
+    
+    if ((shm_id = shmget(IPC_PRIVATE, 1024, IPC_CREAT | 0660)) < 0)
+    {
         printf("shmget Error\n");
         return -1;
     }
+    
     int *sharedVar = (int*) shmat(shm_id, NULL, 0);
-    sharedVar = 1;
+    *sharedVar = 1;
+    
     if ((childpid = fork()) == 0)
     {     
         printf("Valor inicial da variavel compartilhada: %i\n", *sharedVar);
@@ -27,5 +31,6 @@ int main(void)
         *sharedVar *= 4;
         printf("Valor da variavel multiplicado (depois do termino do processo filho) -> *shrd *= 4: %i\n",*sharedVar);    
     }
+    
     return 0;
 }
