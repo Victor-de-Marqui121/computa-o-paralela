@@ -21,7 +21,7 @@ int main(void)
     if ((childpid = fork()) == 0)
     {     
         printf("Valor inicial da variavel compartilhada: %i\n", *sharedVar);
-        sharedVar += 2; 
+        *sharedVar += 2; 
         printf("Fork() ChildPid -> %i\n", getpid());
         printf("valor da variavel depois de somar 2 -> *shrd += 2: %i\n",*sharedVar);    
     }
