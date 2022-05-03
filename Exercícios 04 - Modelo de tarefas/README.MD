@@ -2,7 +2,7 @@
 #include <iostream> faltando, devido ao markdown do github não permitir
 <pre>
   <code>
-    using namespace std;
+  using namespace std;
 
     int main() {
       int T = 10;
@@ -15,7 +15,7 @@
       }
       cout << "Serie de Taylor(" << T  << "): " << S;
       return 0;
-      }	
+    }	
   </code>
 </pre>
 
