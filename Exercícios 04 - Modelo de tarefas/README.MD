@@ -1,5 +1,5 @@
 <h2>Código</h2>
-#include <iostream> faltando, devido ao markdown do github não permitir
+#include iostream faltando, devido ao markdown do github não permitir
 <pre>
   <code>
   using namespace std;
