@@ -1,0 +1,49 @@
+#include <iostream>
+#include "pthread.h"
+#include <string>
+
+using namespace std;
+
+#define NUM_THREADS 2
+float serie;
+
+void *PrintAsciiText(void *id)
+{
+    int T = 499;
+    float S = 0;
+
+    for (float i = 1; i <= T; i++)
+    {
+        S += (1 / i);
+    }
+    serie += S;
+    pthread_exit(NULL);
+}
+
+void *PrintAsciiText2(void *id)
+{
+    int T = 1000;
+    float S = 0;
+
+    for (float i = 500; i <= T; i++)
+    {
+        S += (1 / i);
+    }
+    serie += S;
+    pthread_exit(NULL);
+}
+
+int main()
+{
+    int T = 1000, i;
+    pthread_t core1, core2;
+
+    pthread_create(&core1, NULL, PrintAsciiText, (void *)&i);
+    pthread_create(&core2, NULL, PrintAsciiText2, (void *)&i);
+    pthread_join(core1, NULL);
+    pthread_join(core2, NULL);
+
+    cout << "Taylor(" << T << ") = " << serie << endl;
+    
+    return 0;
+}
