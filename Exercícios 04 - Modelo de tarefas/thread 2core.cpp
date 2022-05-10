@@ -1,3 +1,6 @@
+// Victor De Marqui 32014287
+// Giovanni Vichiatti Mori 32054033
+// Guilherme Rodrigues Santos 32012209
 #include <iostream>
 #include "pthread.h"
 #include <string>
@@ -44,6 +47,6 @@ int main()
     pthread_join(core2, NULL);
 
     cout << "Taylor(" << T << ") = " << serie << endl;
-    
+
     return 0;
 }
