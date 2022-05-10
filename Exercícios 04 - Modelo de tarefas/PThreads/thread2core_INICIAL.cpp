@@ -10,7 +10,7 @@ using namespace std;
 #define NUM_THREADS 2
 float serie;
 
-void *PrintAsciiText(void *id)
+void *Thread1(void *id)
 {
     int T = 499;
     float S = 0;
@@ -23,7 +23,7 @@ void *PrintAsciiText(void *id)
     pthread_exit(NULL);
 }
 
-void *PrintAsciiText2(void *id)
+void *Thread2(void *id)
 {
     int T = 1000;
     float S = 0;
@@ -41,8 +41,8 @@ int main()
     int T = 1000, i;
     pthread_t core1, core2;
 
-    pthread_create(&core1, NULL, PrintAsciiText, (void *)&i);
-    pthread_create(&core2, NULL, PrintAsciiText2, (void *)&i);
+    pthread_create(&core1, NULL, Thread1, (void *)&i);
+    pthread_create(&core2, NULL, Thread2, (void *)&i);
     pthread_join(core1, NULL);
     pthread_join(core2, NULL);
 
