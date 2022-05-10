@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-#define NUM_THREADS 2       // Mudar Quantia de Threads de acordo com a preferência
+#define NUM_THREADS 4       // Mudar Quantia de Threads de acordo com a preferência
 #define TAYLOR_SERIES 1000  // Valor da série de Taylor a ser calculado 
 
 struct TaylorData {
@@ -14,7 +14,7 @@ struct TaylorData {
         int minNum;
         int maxNum;
     } Threads[NUM_THREADS];
-    float resultSum;
+    float resultSum; // #pragma
 } TaylorData;
 
 void *sumTaylor(void *id)
