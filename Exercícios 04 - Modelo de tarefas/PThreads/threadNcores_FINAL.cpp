@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-#define NUM_THREADS 5
+#define NUM_THREADS 2
 #define TAYLOR_SERIES 1000
 
 struct TaylorData {
