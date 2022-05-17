@@ -1,0 +1,1 @@
+O #pragma omp critical é uma diretiva do OpenMP, que visa a prevenção do acesso das seções críticas do código a partir de múltiplas threads ao mesmo tempo, criando uma espécie de semáforo, auxiliando assim, o controle do valor da variável, obtendo sempre um valor constante como resultado.
