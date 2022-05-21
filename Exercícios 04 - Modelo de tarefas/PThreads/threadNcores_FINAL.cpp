@@ -6,8 +6,8 @@
 #include <string>
 using namespace std;
 
-#define NUM_THREADS 2          // Mudar Quantia de Threads de acordo com a preferência
-#define TAYLOR_SERIES 1000  // Valor da série de Taylor a ser calculado 
+#define NUM_THREADS 2         
+#define TAYLOR_SERIES 1000  
 
 struct TaylorData {
     struct {
