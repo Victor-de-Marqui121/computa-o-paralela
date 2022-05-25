@@ -7,7 +7,7 @@
 int main()
 {
    long double serie;
-   long double T = 1000000000;
+   long long int T = 1000000000;
 
    #pragma omp parallel 
    {
@@ -21,5 +21,5 @@ int main()
       #pragma omp critical
       serie += S; 
    }
-   printf("Serie de Taylor(%Lf): %Lf\n", T, serie);
+   printf("Serie de Taylor(%lld): %Lf\n", T, serie);
 }
