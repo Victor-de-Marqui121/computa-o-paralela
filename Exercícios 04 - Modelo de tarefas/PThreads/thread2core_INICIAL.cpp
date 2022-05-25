@@ -8,15 +8,14 @@
 using namespace std;
 
 #define NUM_THREADS 2
-float serie;
-//4111686018427387900 
+float serie; 
 void *Thread1(void *id)
 {
-    long long T = 4111686018427387899;
+    long long T = 1111111110;
     // 4111686018427387900
-    float S = 0;
+    double S = 0;
 
-    for (float i = 1; i <= T; i++)
+    for (double i = 1; i <= T; i++)
     {
         S += (1 / i);
     }
@@ -26,10 +25,10 @@ void *Thread1(void *id)
 
 void *Thread2(void *id)
 {
-    long long T = 8223372036854775800;
-    float S = 0;
+    long long T = 2222222222;
+    double S = 0;
 
-    for (float i = 4111686018427387900; i <= T; i++)
+    for (double i = 1111111111; i <= T; i++)
     {
         S += (1 / i);
     }
@@ -39,9 +38,8 @@ void *Thread2(void *id)
 
 int main()
 {
-    int T = 1000, i;
+    long long int T = 2222222222, i;
     pthread_t core1, core2;
-
     pthread_create(&core1, NULL, Thread1, (void *)&i);
     pthread_create(&core2, NULL, Thread2, (void *)&i);
     pthread_join(core1, NULL);
