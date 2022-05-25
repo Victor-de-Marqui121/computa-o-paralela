@@ -26,11 +26,16 @@
 
 <p>Nessa entrega Final, Refatoramos e melhoramos a codificação do programa, removendo o pragma critical desnecessário,
 e completando o omp com a diretiva parallel, além de ter aumentado o limite do número inteiro possível a ser rodado como
-Série de Taylor máximo, indo para long long int e long double, pois long double apresenta numero limite de 16 bytes para serem 
-explorados e long long int com 8 bytes, permitindo ir um pouco além das implementações anteriores.</p>
+Série de Taylor máximo, indo para long long int e double.</p> <br>
 
+
+<h2>Speed Up [TEMPO]</h2>
 <p>
-  Já a questão do speedup foi monstruosa, quando comparada com o código inicial e com pthreads dual core
+  A questão do speedup foi monstruosa, quando comparada com o código inicial e com pthreads dual core: 
+  <br><br> <img src="https://user-images.githubusercontent.com/90067572/170367527-09328df4-8925-4606-be02-3111574d31be.png"> <br>
+  <sup><b>[ Implementação Serial X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup> <br>
   
-  
+  <img src="https://user-images.githubusercontent.com/90067572/170372746-f5906f10-ab52-4375-af27-a1cee8ab00e0.png"> <br>
+  <sup><b>[ Pthread DualCore X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup>
+
  </p>
