@@ -12,7 +12,6 @@ int main()
    #pragma omp parallel 
    {
       long double S = 0;
-      
       #pragma omp for schedule(dynamic) nowait
       for (int i = 1; i <= T ; i++)
       {
