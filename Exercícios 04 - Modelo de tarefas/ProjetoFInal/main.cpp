@@ -4,21 +4,23 @@
 #include <omp.h>
 #include <stdio.h>
 
+// using namespace std;
 int main()
 {
-   long double serie;
-   long long int T = 1000000000;
-
+   double serie;
+   long long int T = 2222222222;
    #pragma omp parallel 
    {
-      long double S = 0;
-      #pragma omp for schedule(dynamic) nowait
-      for (int i = 1; i <= T ; i++)
+      double S = 0;
+      
+      #pragma omp for nowait
+      for (long long int i = 1; i<=T; i++)
       {
          S += (1.0/i);
       }
       #pragma omp critical
-      serie += S; 
+      serie += S;
+   
    }
-   printf("Serie de Taylor(%lld): %Lf\n", T, serie);
+   printf("Serie de Taylor(%lld): %f\n", T, serie);
 }
