@@ -40,8 +40,6 @@ void *Thread2(void *id)
 int main()
 {
     int T = 1000, i;
-
-    cout << "tnc " << (8223372036854775800 / 2)-1;
     pthread_t core1, core2;
 
     pthread_create(&core1, NULL, Thread1, (void *)&i);
