@@ -40,4 +40,4 @@ Série de Taylor máximo, indo para long long int e double.</p> <br>
 
  </p>
  
- <p>A diferença de tempo nessa versão fina entre a versão serial e a paralela foi de aproximadamente 10 segundos com a versão serial (13,313s/0,674) sendo mais devagar que a paralela (3,694s/0,694s)  </p>
+ <p>A diferença de tempo entre as versões serial e a paralela do nosso codigo final foi de aproximadamente 10 segundos, sendo a versão serial (13,313s/0,674) sendo mais devagar que a paralela (3,694s/0,694s)  </p>
