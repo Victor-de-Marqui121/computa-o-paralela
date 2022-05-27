@@ -39,3 +39,5 @@ Série de Taylor máximo, indo para long long int e double.</p> <br>
   <sup><b>[ Pthread DualCore X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup>
 
  </p>
+ 
+ <p>A diferença de tempo nessa versão fina entre a versão serial e a parela foi de aproximadamente 10 segundos </p>
