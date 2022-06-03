@@ -37,5 +37,6 @@ Série de Taylor máximo, indo para long long int e double.</p> <br>
   
   <img src="https://user-images.githubusercontent.com/90067572/170372746-f5906f10-ab52-4375-af27-a1cee8ab00e0.png"> <br>
   <sup><b>[ Pthread DualCore X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup> <strong>(3,694s/0,694s) = 5,32</strong>
+![image](https://user-images.githubusercontent.com/90067572/171865728-30974bef-c7f1-4bc0-8888-e69de5cbcfc0.png)
 
  </p>
