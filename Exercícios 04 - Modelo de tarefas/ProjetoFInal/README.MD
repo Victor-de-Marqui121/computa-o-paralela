@@ -33,11 +33,9 @@ Série de Taylor máximo, indo para long long int e double.</p> <br>
 <p>
   A questão do speedup foi monstruosa, quando comparada com o código inicial e com pthreads dual core: 
   <br><br> <img src="https://user-images.githubusercontent.com/90067572/170367527-09328df4-8925-4606-be02-3111574d31be.png"> <br>
-  <sup><b>[ Implementação Serial X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup> <br>
+  <sup><b>[ Implementação Serial X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup>  <strong>(13,313s/0,674) = 19,75</strong> <br>
   
   <img src="https://user-images.githubusercontent.com/90067572/170372746-f5906f10-ab52-4375-af27-a1cee8ab00e0.png"> <br>
-  <sup><b>[ Pthread DualCore X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup>
+  <sup><b>[ Pthread DualCore X OPEN MP ]</b> Utilizando como base Taylor(2222222222)</sup> <strong>(3,694s/0,694s) = 5,32</strong>
 
  </p>
- 
- <p>A diferença de tempo entre as versões serial e a paralela do nosso codigo final foi de aproximadamente 10 segundos, sendo a versão serial (13,313s/0,674) sendo mais devagar que a paralela (3,694s/0,694s)  </p>
