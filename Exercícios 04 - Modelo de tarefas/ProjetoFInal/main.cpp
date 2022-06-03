@@ -12,7 +12,7 @@ int main()
    {
       double S = 0;
       
-      #pragma omp for nowait
+      #pragma omp for // nowait
       for (long long int i = 1; i<=T; i++)
       {
          S += (1.0/i);
